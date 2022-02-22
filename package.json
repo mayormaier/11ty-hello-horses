@@ -1,0 +1,15 @@
+{
+  "name": "hello-horses",
+  "version": "1.0.0",
+  "description": "hello world for 11ty based on horses! Created by Andrew Maier @mayormaier",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "eleventy"
+  },
+  "author": "Andrew Maier",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

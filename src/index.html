@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/global.css">
+    <title>Hello Horses!</title>
+</head>
+<body>
+    <header><a href="/"><h1>Hello Horses!</h1></a></header>
+    <main>
+        <ul class="image-grid">
+            {%- for post in collections.horse reversed -%}
+            <li class="image-grid__item">
+                <img src="{{post.data.imageURL}}" alt="{{post.data.imageAlt}}">
+                <a href="{{post.url}}">{{ post.data.name }}</a>
+            </li>
+            {%- endfor -%}
+        </ul>
+    </main>
+    <footer>&copy; 2022 mayormaier</footer>
+</body>
+</html>

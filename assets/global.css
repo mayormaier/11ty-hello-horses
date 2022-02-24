@@ -1,0 +1,19 @@
+* { font-family: Helvetica, Arial, sans-serif; color: white; }
+
+footer { color: lightgrey; position: fixed; left: 0px; bottom: 0px; padding: 10px; }
+
+body { background-color: #1b2631; max-width: 100%; }
+
+body h1 { color: white; text-align: center; }
+
+body p { color: white; }
+
+.image-grid { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1rem; list-style-type: none; }
+
+.image-grid__item { display: flex; flex-direction: column; justify-content: center; text-align: center; }
+
+.image-grid__item a { margin: 15px; font-size: 24px; }
+
+.image-grid__item img { width: 500px; height: 500px; object-fit: cover; }
+
+.post-content { display: flex; justify-content: center; }

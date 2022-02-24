@@ -15,7 +15,7 @@
             {%- for post in collections.horse reversed -%}
             <li class="image-grid__item">
                 <img src="{{post.data.imageURL}}" alt="{{post.data.imageAlt}}">
-                <a href="{{post.url}}">{{ post.data.name }}</a>
+                <a href="/11ty-hello-horses/{{post.url}}">{{ post.data.name }}</a>
             </li>
             {%- endfor -%}
         </ul>

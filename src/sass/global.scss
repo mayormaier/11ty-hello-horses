@@ -1,16 +1,18 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
-}
-
-a:visited {
   color: white;
 }
+
+//a:visited {
+//  color: white;
+//}
 
 footer {
   color: lightgrey;
   position: fixed;
   left: 0px;
   bottom: 0px;
+  padding: 10px;
 }
 
 body {
@@ -50,4 +52,9 @@ body {
     height: 500px;
     object-fit: cover;
   }
+}
+
+.post-content {
+  display: flex;
+  justify-content: center;
 }

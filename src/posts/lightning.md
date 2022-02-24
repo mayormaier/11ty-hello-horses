@@ -1,7 +1,6 @@
 ---
 name: Lightning
 imageURL: https://www.recoveryranch.com/wp-content/uploads/2020/03/Horse.jpg
-imageAlt: An image of a horse
 date: 2021-08-21
 ---
 

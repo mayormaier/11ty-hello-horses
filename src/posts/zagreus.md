@@ -1,7 +1,6 @@
 ---
 name: Zagreus
 imageURL: https://i.ytimg.com/vi/qWeQrv1Foqo/maxresdefault.jpg
-imageAlt: An image of a horse
 date: 2022-02-02
 ---
 

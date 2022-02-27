@@ -58,3 +58,19 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.post-main {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.article-content {
+  width: 90%;
+  margin: auto;
+
+  h1 {
+    text-align: left;
+  }
+}

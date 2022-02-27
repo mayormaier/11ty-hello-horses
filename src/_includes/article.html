@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - Andrew Maier</title>
+    <link rel="stylesheet" href="{{ '/assets/article.css' | url}}">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+</head>
+<header>
+    <h2><a href="{{ '/' | url }}">Andrew Maier</a></h2>
+</header>
+<body>
+    <h1>{{title}}</h1>
+    <p class="article-info">
+        <span class="author-name">Author: {{author}}</span>
+        <span class="publish-date">Published: {{pubDate}}</span>
+    </p>
+    <div class="article-content">{{content}}</div>
+</body>
+<footer>
+    &copy; mayormaier 2022
+</footer>
+</html>

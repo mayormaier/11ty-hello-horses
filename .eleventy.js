@@ -12,7 +12,7 @@ module.exports = function(eleventyConfig) {
     
     return { 
         dir: { input: "src" },
-        pathPrefix: "/11ty-hello-horse/",
+        pathPrefix: "/11ty-hello-horses/",
         jsDataFileSuffix: ".11tydata" 
     };
 }

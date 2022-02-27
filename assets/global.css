@@ -17,3 +17,9 @@ body p { color: white; }
 .image-grid__item img { width: 500px; height: 500px; object-fit: cover; }
 
 .post-content { display: flex; justify-content: center; }
+
+.post-main { margin-left: 100px; margin-right: 100px; display: flex; align-items: center; }
+
+.article-content { width: 90%; margin: auto; }
+
+.article-content h1 { text-align: left; }

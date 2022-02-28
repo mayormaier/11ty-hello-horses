@@ -8,7 +8,7 @@
     <title>Hello Horses!</title>
 </head>
 <body>
-    <header><a href="/"><h1>Hello Horses!</h1></a></header>
+    <header><a href="{{ '/' | url}}"><h1>Hello Horses!</h1></a></header>
     <main class="post-content">
         <ul class="image-grid">
             {%- for post in collections.horse reversed -%}

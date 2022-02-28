@@ -73,4 +73,14 @@ body {
   h1 {
     text-align: left;
   }
+
+  .article-list__item-name {
+    font-size: 20px;
+  }
+
+  .article-list__item-author {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 7px;
+  }
 }

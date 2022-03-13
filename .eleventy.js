@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
     files: ['_site/assets/*.css']
     });
 
-    const deployPath = '';
+    let deployPath = '/';
     if (process.env.deployEndpoint != 'vercel'){
         deployPath = '/11ty-hello-horses/';
     }

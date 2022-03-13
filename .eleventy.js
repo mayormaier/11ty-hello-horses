@@ -9,10 +9,15 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setBrowserSyncConfig({
     files: ['_site/assets/*.css']
     });
+
+    const deployPath = '';
+    if (process.env.deployEndpoint != 'vercel'){
+        deployPath = '/11ty-hello-horses/';
+    }
     
     return { 
         dir: { input: "src" },
-        pathPrefix: "/11ty-hello-horses/",
+        pathPrefix: deployPath,
         jsDataFileSuffix: ".11tydata" 
     };
 }
